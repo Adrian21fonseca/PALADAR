@@ -2,13 +2,15 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Lobster&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Coming+Soon&family=Poetsen+One&display=swap');
+
 body{
     margin: 0;
     padding: 0;
 }
 
 .contenedor_navegador{
-    background: rgb(255, 115, 0);
+    background: rgb(0, 0, 0);
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -26,7 +28,8 @@ body{
 .link_navegacion{
     margin: 0 10px;
     padding-bottom: 10px;
-    color: black;
+    color: rgb(136, 15, 15);
+    text-shadow: 0 0 10px rgb(137, 42, 42);
     text-decoration: none;
     cursor: pointer;
     font-weight: 500;
@@ -37,9 +40,9 @@ body{
     text-align: center;
     margin: 0 30px;
     padding: 0 30px;
-    background: rgba(255, 115, 0, 0.722);
+    background: rgb(0, 0, 0);
     border-radius: 10px;
-    box-shadow: 5px 5px 20px rgb(255, 119, 0), -5px -5px 20px rgb(255, 119, 0);
+    box-shadow: 5px 5px 20px rgb(58, 58, 58), -5px -5px 20px rgb(58, 58, 58);
 }
 
 .contenedor_presentacion{
@@ -55,14 +58,17 @@ body{
 }
 
 h2{
-    font-family: "Pacifico", cursive;
+    font-family: "Poetsen One", sans-serif;
     padding: 5px;
     margin-bottom: 0px;
     margin-top: 3px;
-    text-shadow: 0 0 10px white;
+    color: rgb(136, 15, 15);
+    text-shadow: 0 0 10px rgb(92, 9, 9);
 }
 
 .texto{
+    color: white;
+    text-shadow: 0 0 10px rgb(255, 0, 0);
     margin-top: 0;
     font-family: "Roboto", sans-serif;
     font-size: 13px;
