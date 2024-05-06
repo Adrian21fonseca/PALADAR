@@ -33,7 +33,7 @@ body{
     text-decoration: none;
     cursor: pointer;
     font-weight: 500;
-    font-family: "Pacifico", cursive;
+    font-family: "Poetsen One", sans-serif;
 }
 
 .sobre_nosotros{
@@ -58,12 +58,12 @@ body{
 }
 
 h2{
-    font-family: "Poetsen One", sans-serif;
+    font-family: "Pacifico", cursive;
     padding: 5px;
     margin-bottom: 0px;
     margin-top: 3px;
     color: rgb(136, 15, 15);
-    text-shadow: 0 0 10px rgb(92, 9, 9);
+    text-shadow: 0 0 5px rgb(255, 255, 255);
 }
 
 .texto{
