@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
 body{
     margin: 0;
@@ -30,4 +31,39 @@ body{
     cursor: pointer;
     font-weight: 500;
     font-family: "Pacifico", cursive;
+}
+
+.sobre_nosotros{
+    text-align: center;
+    margin: 0 30px;
+    padding: 0 30px;
+    background: rgb(255, 115, 0);
+}
+
+.contenedor_presentacion{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.presentacion{
+    margin: 10px auto;
+    width: 200px;
+    box-shadow: 3px 3px 10px black;
+}
+
+h2{
+    font-family: "Pacifico", cursive;
+    padding: 5px;
+    margin-bottom: 5px;
+    margin-top: 3px;
+}
+
+.texto{
+    margin-top: 0;
+    font-family: "Roboto", sans-serif;
+}
+
+.pasos{
+    width: 200px;
 }
