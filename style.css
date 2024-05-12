@@ -1,3 +1,5 @@
+                        /* FUENTES */
+
 @import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
 
 @import url('https://fonts.googleapis.com/css2?family=Lobster&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
@@ -6,11 +8,15 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
 
+            /* CAMBIOS GENERALES */
+
 body{
     margin: 0;
     padding: 0;
     background: black;
 }
+
+                /* HEADER */
 
 .contenedor_navegador{
     background: rgb(0, 0, 0);
@@ -29,17 +35,6 @@ body{
     display: flex;
 }
 
-.link_navegacion{
-    margin: 0 10px;
-    padding-bottom: 10px;
-    color: rgb(136, 15, 15);
-    text-shadow: 0 0 10px rgb(137, 42, 42);
-    text-decoration: none;
-    cursor: pointer;
-    font-weight: 500;
-    font-family: "Poetsen One", sans-serif;
-}
-
 #link_navegacion{
     margin: 0 10px;
     padding-bottom: 10px;
@@ -51,15 +46,7 @@ body{
     font-family: "Poetsen One", sans-serif;
 }
 
-
-.sobre_nosotros{
-    text-align: center;
-    margin: 0 30px;
-    padding: 0 30px;
-    background: rgb(0, 0, 0);
-    border-radius: 10px;
-    box-shadow: 5px 5px 20px rgb(155, 155, 155), -5px -5px 20px rgb(58, 58, 58);
-}
+                /* VIDEO DE PRESENTACION */
 
 .contenedor_presentacion{
     display: flex;
@@ -68,9 +55,71 @@ body{
 }
 
 .presentacion{
-    margin: 28px auto;
+    margin: 50px auto 20px auto; 
     width: 200px;
     box-shadow: 3px 3px 10px rgb(152, 152, 152);
+}
+
+            /* MENU */
+
+h3{
+    color: rgb(136, 15, 15);
+    text-shadow: 2px 2px 10px white;
+    font-family: "Dancing Script", cursive;
+    font-size: 100px;
+    text-align: center;
+    margin: 40px 0 30px 0;
+}
+
+.contenedor_hamburgesas{
+    background: rgb(0, 0, 0);
+    box-shadow: 0 0 20px rgb(136, 15, 15);
+    border-radius: 10px;
+    width: 70%;
+    margin: 30px auto;
+    text-align: center;
+}
+
+.imagen_producto{
+    width: 200px;
+    margin-top: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px white;
+}
+
+.productos{
+    color: white;
+}
+
+.titulo{
+    font-family: "Dancing Script", cursive;
+    text-shadow: 4px 4px 1px rgb(136, 15, 15);
+    font-size: 20px;
+    font-weight: 900;
+}
+
+.descripcion_producto{
+    font-family: "Poetsen One", sans-serif;
+    font-size: 12px;
+    padding: 0 14px;
+}
+
+.precio{
+padding-bottom: 10px;
+font-family: "Poetsen One", sans-serif;
+    text-shadow: 4px 4px 1px rgb(136, 15, 15);
+}
+
+                    /* FOOTER */
+
+
+.sobre_nosotros{
+    text-align: center;
+    margin: 70px 30px;
+    padding: 0 30px;
+    background: rgb(0, 0, 0);
+    border-radius: 10px;
+    box-shadow: 5px 5px 20px rgb(155, 155, 155), -5px -5px 20px rgb(58, 58, 58);
 }
 
 h2{
@@ -94,11 +143,5 @@ h2{
     margin-bottom: 10px;
 }
 
-h3{
-    color: rgb(136, 15, 15);
-    font-family: "Dancing Script", cursive;
-    font-size: 100px;
-    text-align: center;
-    margin: 60px 0 30px 0;
-    
-}
+
+
