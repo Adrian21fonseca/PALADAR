@@ -7,6 +7,7 @@
 body{
     margin: 0;
     padding: 0;
+    background: black;
 }
 
 .contenedor_navegador{
@@ -36,13 +37,25 @@ body{
     font-family: "Poetsen One", sans-serif;
 }
 
+#link_navegacion{
+    margin: 0 10px;
+    padding-bottom: 10px;
+    color: rgb(136, 15, 15);
+    text-shadow: 0 0 10px rgb(137, 42, 42);
+    text-decoration: none;
+    cursor: pointer;
+    font-weight: 500;
+    font-family: "Poetsen One", sans-serif;
+}
+
+
 .sobre_nosotros{
     text-align: center;
     margin: 0 30px;
     padding: 0 30px;
     background: rgb(0, 0, 0);
     border-radius: 10px;
-    box-shadow: 5px 5px 20px rgb(58, 58, 58), -5px -5px 20px rgb(58, 58, 58);
+    box-shadow: 5px 5px 20px rgb(155, 155, 155), -5px -5px 20px rgb(58, 58, 58);
 }
 
 .contenedor_presentacion{
@@ -54,7 +67,7 @@ body{
 .presentacion{
     margin: 28px auto;
     width: 200px;
-    box-shadow: 3px 3px 10px black;
+    box-shadow: 3px 3px 10px rgb(152, 152, 152);
 }
 
 h2{
@@ -67,8 +80,7 @@ h2{
 }
 
 .texto{
-    color: white;
-    text-shadow: 0 0 10px rgb(255, 0, 0);
+    color: rgb(255, 255, 255);
     margin-top: 0;
     font-family: "Roboto", sans-serif;
     font-size: 13px;
