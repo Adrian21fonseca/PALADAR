@@ -19,9 +19,8 @@
                 
                 <div class="contenedor_link_navegacion">
 
-                    <a id="link_navegacion" href="">Sobre Nosotros</a>
-                    <a id="link_navegacion" href="">Menu</a>
-                    <a id="link_navegacion" href="">Haz tu Pedido</a>
+                    <a id="link_navegacion" href="#contenedor_menu">Menu</a>
+                    <a id="link_navegacion" href="#Pedido">Haz tu Pedido</a>
                 
                 </div>
 
@@ -39,7 +38,7 @@
 
         </div>
 
-        <div class="contenedor_menu">
+        <div id="contenedor_menu">
 
             <h3>Menu</h3>
 
@@ -289,7 +288,7 @@
 
             <div class="contenedor_menu">
 
-                <h3 class="Pedido">Haz Tu Pedido</h3>
+                <h3 id="Pedido">Haz Tu Pedido</h3>
 
             </div>
 
@@ -297,15 +296,24 @@
 
                 <form action="">
 
-                    <input type="text" placeholder="Nombre y Apellido">
+                    <label for="Nombre">Nombre y Apellido</label>
 
-                    <input type="text" placeholder="Direccion">
+                    <input id="Nombre" name="Nombre" type="text" placeholder="Ej. Manuel Gonzalez" required>
 
-                    <input type="text" placeholder="Metodo de pago">
+                    <label for="Direccion">Direccion</label>
+                    
+                    <input id="Direccion" name="Direccion" type="text" placeholder="Ej. Calle..." required>
 
-                    <textarea name="" id="" placeholder="Tu pedido..."></textarea>
 
+                    <label for="pago">Metodo de pago</label>
 
+                    <input id="pago" name="pago" type="text" placeholder="Ej. Nequi, Bancolombia, Efectivo" required>
+
+                    <label for="pedido">Pedido</label>
+
+                    <textarea name="pedido" id="pedido" placeholder="Ej. Hamburguesa sencilla" required></textarea>
+
+                    <input type="submit" value="Hacer pedido">
 
                 </form>
 
@@ -313,65 +321,22 @@
 
         </section>
 
-
-
-
-
-
-
-
-
-        <!-- <div class="sobre_nosotros">
-
-            <h2>Nuestra Historia</h2>
-
-            <p class="texto">
-
-                Paladar nació de la pasión por la comida y el deseo de crear un lugar donde las personas pudieran disfrutar de deliciosas opciones de comida rápida en un ambiente acogedor y amigable. Desde nuestros modestos comienzos, hemos crecido para convertirnos en un destino popular para aquellos que buscan una comida sabrosa y rápida.
-
-            </p>
-
-            <video class="pasos" src="Multimedia/paso1.mp4" loop
-            autoplay></video>
-
-            <h2>Nuestra Misión</h2>
-
-            <p class="texto">
-
-                Nuestra misión es proporcionar a nuestros clientes una experiencia culinaria excepcional al ofrecer alimentos frescos, sabrosos y convenientes que superen sus expectativas. Nos esforzamos por mantener altos estándares de calidad en todos nuestros productos y servicios, mientras buscamos constantemente formas de mejorar y adaptarnos a las necesidades cambiantes de nuestros clientes.
-
-            </p>
-
-            <video class="pasos" src="Multimedia/paso3 ‐ Hecho con Clipchamp.mp4" loop
-            autoplay></video>
-
-            <h2>Nuestra Filosofia</h2>
-
-            <p class="texto">
-
-                Paladar se compromete a ofrecer comida rápida de alta calidad que satisfaga los gustos y necesidades de nuestros clientes. Creemos en la frescura, la variedad y la conveniencia sin comprometer la calidad de nuestros ingredientes o el servicio al cliente.
-
-            </p>
-
-            <video class="pasos" src="Multimedia/paso5 ‐ Hecho con Clipchamp.mp4" loop
-            autoplay></video>
-
-            <h2>Nuestra Visión</h2>
-
-            <p class="texto">
-
-                En Paladar, aspiramos a ser reconocidos como líderes en la industria de la comida rápida, no solo por nuestra deliciosa comida, sino también por nuestro compromiso con la excelencia en el servicio al cliente, la sostenibilidad y la innovación. Nos esforzamos por expandir nuestra presencia y seguir siendo un lugar favorito para personas de todas las edades que buscan una comida rápida de calidad.
-
-            </p>
-
-            <video class="pasos" src="Multimedia/paso_final ‐ Hecho con Clipchamp.mp4" loop
-            autoplay></video>
-
-        </div> -->
-
-        
-
     </main>
 
+    <footer>
+        <!-- Aquí va tu logo -->
+        <img src="Logos-PNG/logo(oscuro).jpg" alt="Logo del local" class="footer-logo">
+
+        <p class="copy">
+            ©Copyrigth/PALADAR
+        </p>
+
+        <p class="año">
+            2024
+        </p>
+
+    </footer>
+
+    <script src="main.js"></script>
 </body>
 </html>
