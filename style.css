@@ -71,7 +71,7 @@ h3{
     margin: 40px 0 30px 0;
 }
 
-.contenedor_hamburgesas{
+.contenedor_producto{
     background: rgb(0, 0, 0);
     box-shadow: 0 0 20px rgb(136, 15, 15);
     border-radius: 10px;
@@ -109,6 +109,26 @@ padding-bottom: 10px;
 font-family: "Poetsen One", sans-serif;
     text-shadow: 4px 4px 1px rgb(136, 15, 15);
 }
+
+.Proximamente{
+    font-size: 60px;
+}
+
+.Pedido{
+    font-size: 55px;
+}
+
+.formulario_de_pedido{
+    background: rgba(128, 128, 128, 0.266);
+    width: 90%;
+    margin: 0 auto;
+    border-radius: 20px;
+    text-align: center;
+}
+
+
+
+
 
                     /* FOOTER */
 
