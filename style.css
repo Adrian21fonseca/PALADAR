@@ -1,192 +1,109 @@
-                        /* FUENTES */
+/* ...........Receteo General....... */
 
-@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+/* .permanent-marker-regular {
+  font-family: "Permanent Marker", serif;
+  font-weight: 400;
+  font-style: normal;
+} */
 
-@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+/* .lobster-regular {
+  font-family: "Lobster", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+ */
 
-@import url('https://fonts.googleapis.com/css2?family=Coming+Soon&family=Poetsen+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
 
-@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
 
-            /* CAMBIOS GENERALES */
-
-body{
-    margin: 0;
+*{
     padding: 0;
-    background: black;
-}
-
-                /* HEADER */
-
-.contenedor_navegador{
-    background: rgb(0, 0, 0);
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    box-shadow: 2px 0 10px rgb(136, 15, 15);
-}
-
-.logo{
-    width: 160px;
-}
-
-.contenedor_link_navegacion{
-    display: flex;
-}
-
-#link_navegacion{
-    margin: 0 10px;
-    padding-bottom: 10px;
-    color: rgb(136, 15, 15);
-    text-shadow: 0 0 10px rgb(137, 42, 42);
-    text-decoration: none;
-    cursor: pointer;
-    font-weight: 500;
-    font-family: "Poetsen One", sans-serif;
-}
-
-                /* VIDEO DE PRESENTACION */
-
-.contenedor_presentacion{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.presentacion{
-    margin: 50px auto 20px auto; 
-    width: 200px;
-    box-shadow: 3px 3px 10px rgb(152, 152, 152);
-}
-
-            /* MENU */
-
-h3{
-    color: rgb(136, 15, 15);
-    text-shadow: 2px 2px 10px white;
-    font-family: "Dancing Script", cursive;
-    font-size: 100px;
-    text-align: center;
-    margin: 40px 0 30px 0;
-}
-
-.contenedor_producto{
-    background: rgb(0, 0, 0);
-    box-shadow: 0 0 20px rgb(136, 15, 15);
-    border-radius: 10px;
-    width: 70%;
-    margin: 30px auto;
-    text-align: center;
-}
-
-.imagen_producto{
-    width: 200px;
-    margin-top: 20px;
-    border-radius: 10px;
-    box-shadow: 0 0 20px white;
-}
-
-.productos{
-    color: white;
-}
-
-.titulo{
-    font-family: "Dancing Script", cursive;
-    text-shadow: 4px 4px 1px rgb(136, 15, 15);
-    font-size: 20px;
-    font-weight: 900;
-}
-
-.descripcion_producto{
-    font-family: "Poetsen One", sans-serif;
-    font-size: 12px;
-    padding: 0 14px;
-}
-
-.precio{
-padding-bottom: 10px;
-font-family: "Poetsen One", sans-serif;
-    text-shadow: 4px 4px 1px rgb(136, 15, 15);
-}
-
-.Proximamente{
-    font-size: 60px;
-}
-
-.Pedido{
-    font-size: 55px;
-}
-
-
-.formulario_de_pedido {
-    background: rgba(135, 135, 135, 0.297); /* Color vinotinto */
-    color: #FFFFFF; /* Texto blanco */
-    padding: 20px;
-    border-radius: 10px;
-    width: 75%;
-    margin: 100px auto;
-}
-
-.contenedor_menu {
-    text-align: center;
-    margin-bottom: 20px;
-}
-
-#Pedido {
-    font-size: 45px;
     margin: 0;
-}
-
-.formulario form {
-    display: grid;
-    gap: 10px;
-}
-
-label {
-    font-size: 18px;
-}
-
-input[type="text"],
-textarea {
-    width: 100%;
-    padding: 10px;
-    border: none;
-    border-radius: 5px;
     box-sizing: border-box;
 }
 
-input[type="submit"] {
-    background-color: #8B0000; /* Color vinotinto */
-    color: #FFFFFF; /* Texto blanco */
-    border: none;
-    padding: 10px 20px;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-}
+/* ............. Dieseño del Header ...........  */
 
-input[type="submit"]:hover {
-    background-color: #5A0000; /* Color vinotinto más oscuro al pasar el mouse */
-}
+    header{
+        display: flex;
+        background-color: #051d33;
+        color: #eacaca;
+        justify-content: space-between;
+        padding: 20px;
+    }
 
+    .logo{
+        font-family: "Permanent Marker", serif;
+        font-size: 38px;
+        text-shadow: 2px 2px #792f4e;
+        rotate: -5deg;
+    }
 
-                    /* FOOTER */
+    #btn-abrir{
+        display: flex;
+        align-items: center;
+        background: none;
+        border: none;
+        color: #eacaca;
+    }
 
+    #btn-cerrar{
+        display: flex;
+        justify-content: end;
+        margin-bottom: 50px;
+        margin-top: 18px;
+        background: none;
+        border: none;
+        color: #eacaca;
+    }
 
-footer {
-    background: rgba(135, 135, 135, 0.297); /* Color de fondo oscuro */
-    color: #FFF; /* Texto blanco */
-    padding: 20px 0;
-    text-align: center;
-    margin-top: 90px;
-}
+    .navegador{
+        opacity: 0;
+        visibility: hidden;
 
-.footer-logo {
-    width: 150px;
-    border-radius: 60px;
-}
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        padding: 20px;
+        width: 45%;
+        background: rgb(5,29,51);
+        box-shadow: 0 0 0 100vh #051d33f0;
+    }
 
-.año{
-    font-family: "Dancing Script", cursive;
-}
+    .navegador.visible{
+        opacity: 1;
+        visibility: visible;
+    }
+
+    .lista{
+        display: flex;
+        flex-direction: column;
+        align-items: end;
+        gap: 2rem;
+        list-style-type: none;
+    }
+
+    .navegador .lista-link{
+        color: #eacaca;
+        text-decoration: none;
+        font-size: 30px;
+        font-weight: 300;
+        font-family: "Lobster", serif;
+        text-shadow: 2px 2px #792f4e;
+        transition: .9s;
+    }
+
+    .navegador .lista-link:hover{
+        color: #051d33;
+        text-shadow: none;
+        background-color: #eacaca;
+        padding: 3px 15px;
+        border-radius: 15px;
+        transition: 1s;
+    }
+
+/* ............. Final del Header............... */

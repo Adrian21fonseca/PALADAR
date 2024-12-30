@@ -3,339 +3,46 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PALADAR</title>
-    <link rel="icon" href="Logos-PNG/icon(claro).jpg">
     <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="Logos-PNG/Logo-Paladar.png">
+    <title>Paladar</title>
 </head>
 <body>
     
-    <header>
+    <!-- ........Inicio del Header......... -->
+
+        <header>
+            <h2 class="logo">
+                Paladar
+            </h2>
+            <button id="btn-abrir">
+                <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="boton-abrir" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5"/>
+                </svg>
+            </button>
+
+            <nav class="navegador" id="navegador">
+                <button id="btn-cerrar">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="boton-cerrar" viewBox="0 0 16 16">
+                        <path d="M2.146 2.854a.5.5 0 1 1 .708-.708L8 7.293l5.146-5.147a.5.5 0 0 1 .708.708L8.707 8l5.147 5.146a.5.5 0 0 1-.708.708L8 8.707l-5.146 5.147a.5.5 0 0 1-.708-.708L7.293 8z"/>
+                    </svg>
+                </button>
+                <ul class="lista">
+                    <li class="listado">
+                        <a href="#" class="lista-link">Nosotros</a>
+                    </li>
+                    <li class="listado">
+                        <a href="#" class="lista-link">Menu</a>
+                    </li>
+                    <li class="listado">
+                        <a href="#" class="lista-link">Contacto</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+
+    <!-- ........Final del Header.......... -->
 
-        <nav>
-
-            <div class="contenedor_navegador">
-
-                <img class="logo" src="Logos-PNG/logo(oscuro).jpg" alt="logo">
-                
-                <div class="contenedor_link_navegacion">
-
-                    <a id="link_navegacion" href="#contenedor_menu">Menu</a>
-                    <a id="link_navegacion" href="#Pedido">Haz tu Pedido</a>
-                
-                </div>
-
-            </div>
-
-        </nav>
-
-    </header>
-
-    <main>
-
-        <div class="contenedor_presentacion">
-
-            <video class="presentacion" src="Multimedia/presentacion.mp4" autoplay loop></video>
-
-        </div>
-
-        <div id="contenedor_menu">
-
-            <h3>Menu</h3>
-
-        </div>
-
-        <section class="contenedor_padre">
-
-            <div class="contenedor_producto">
-
-                <div class="productos">
-
-                    <img class="imagen_producto" src="IMG/Hamburguesa_sencilla.jpeg" alt="Hamburgesa Sencilla">
-
-                    <p class="titulo">
-                        Hamburguesa Sencilla
-                    </p>
-
-                    <p class="descripcion_producto">
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis obcaecati quam repudiandae veritatis pariatur fuga distinctio vitae aut, et accusamus excepturi, quis laudantium saepe eaque quibusdam neque ab, architecto ipsum!
-                    </p>
-
-                    <p class="precio">
-                        COP. 12.000
-                    </p>
-
-                </div>
-
-            </div>
-
-            <div class="contenedor_producto">
-
-                <div class="productos">
-
-                    <img class="imagen_producto" src="IMG/Hamburguesa_doble.jpeg" alt="Hamburgesa Mixta">
-
-                    <p class="titulo">
-                        Hamburguesa Mixta
-                    </p>
-
-                    <p class="descripcion_producto">
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis obcaecati quam repudiandae veritatis pariatur fuga distinctio vitae aut, et accusamus excepturi, quis laudantium saepe eaque quibusdam neque ab, architecto ipsum!
-                    </p>
-
-                    <p class="precio">
-                        COP. 15.000
-                    </p>
-
-                </div>
-
-            </div>
-
-            <div class="contenedor_producto">
-
-                <div class="productos">
-
-                    <img class="imagen_producto" src="IMG/Perrito.jpeg" alt="Perro Sencillo">
-
-                    <p class="titulo">
-                        Perro Sencillo
-                    </p>
-
-                    <p class="descripcion_producto">
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis obcaecati quam repudiandae veritatis pariatur fuga distinctio vitae aut, et accusamus excepturi, quis laudantium saepe eaque quibusdam neque ab, architecto ipsum!
-                    </p>
-
-                    <p class="precio">
-                        COP. 7.000
-                    </p>
-
-                </div>
-
-            </div>
-
-            <div class="contenedor_producto">
-
-                <div class="productos">
-
-                    <img class="imagen_producto" src="IMG/Perrito.jpeg" alt="Perro Especial">
-
-                    <p class="titulo">
-                        Perro Especial
-                    </p>
-
-                    <p class="descripcion_producto">
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis obcaecati quam repudiandae veritatis pariatur fuga distinctio vitae aut, et accusamus excepturi, quis laudantium saepe eaque quibusdam neque ab, architecto ipsum!
-                    </p>
-
-                    <p class="precio">
-                        COP. 10.000
-                    </p>
-
-                </div>
-
-            </div>
-
-            <div class="contenedor_producto">
-
-                <div class="productos">
-
-                    <img class="imagen_producto" src="IMG/Pepito.jpeg" alt="Pepito">
-
-                    <p class="titulo">
-                        Pepito
-                    </p>
-
-                    <p class="descripcion_producto">
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis obcaecati quam repudiandae veritatis pariatur fuga distinctio vitae aut, et accusamus excepturi, quis laudantium saepe eaque quibusdam neque ab, architecto ipsum!
-                    </p>
-
-                    <p class="precio">
-                        COP. 15.000
-                    </p>
-
-                </div>
-
-            </div>
-
-            <div class="contenedor_producto">
-
-                <div class="productos">
-
-                    <img class="imagen_producto" src="IMG/arepas.jpg" alt="Arepas">
-
-                    <p class="titulo">
-                        Arepa
-                    </p>
-
-                    <p class="descripcion_producto">
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis obcaecati quam repudiandae veritatis pariatur fuga distinctio vitae aut, et accusamus excepturi, quis laudantium saepe eaque quibusdam neque ab, architecto ipsum!
-                    </p>
-
-                    <p class="precio">
-                        COP. 3.000
-                    </p>
-
-                </div>
-
-            </div>
-
-            <div class="contenedor_producto">
-
-                <div class="productos">
-
-                    <img class="imagen_producto" src="IMG/arepa_mixta.webp" alt="Arepas Mixta">
-
-                    <p class="titulo">
-                        Arepa Mixta
-                    </p>
-
-                    <p class="descripcion_producto">
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis obcaecati quam repudiandae veritatis pariatur fuga distinctio vitae aut, et accusamus excepturi, quis laudantium saepe eaque quibusdam neque ab, architecto ipsum!
-                    </p>
-
-                    <p class="precio">
-                        COP. 5.000
-                    </p>
-
-                </div>
-
-            </div>
-
-
-
-            <div class="contenedor_menu">
-
-                <h3 class="Proximamente">Proximamente</h3>
-
-            </div>
-
-
-
-
-            <div class="contenedor_producto">
-
-                <div class="productos">
-
-                    <img class="imagen_producto" src="IMG/Salchipapa.jpg" alt="Salchipapas">
-
-                    <p class="titulo">
-                        Salchipapas
-                    </p>
-
-                    <p class="descripcion_producto">
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis obcaecati quam repudiandae veritatis pariatur fuga distinctio vitae aut, et accusamus excepturi, quis laudantium saepe eaque quibusdam neque ab, architecto ipsum!
-                    </p>
-
-                    <p class="precio">
-                        COP. ---
-                    </p>
-
-                </div>
-
-            </div>
-
-            <div class="contenedor_producto">
-
-                <div class="productos">
-
-                    <img class="imagen_producto" src="IMG/Picada.jpg" alt="Picada">
-
-                    <p class="titulo">
-                        Picada
-                    </p>
-
-                    <p class="descripcion_producto">
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis obcaecati quam repudiandae veritatis pariatur fuga distinctio vitae aut, et accusamus excepturi, quis laudantium saepe eaque quibusdam neque ab, architecto ipsum!
-                    </p>
-
-                    <p class="precio">
-                        COP. ---
-                    </p>
-
-                </div>
-
-            </div>
-
-            <div class="contenedor_producto">
-
-                <div class="productos">
-
-                    <img class="imagen_producto" src="IMG/Asados.jpeg" alt="Asados">
-
-                    <p class="titulo">
-                        Asados
-                    </p>
-
-                    <p class="descripcion_producto">
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis obcaecati quam repudiandae veritatis pariatur fuga distinctio vitae aut, et accusamus excepturi, quis laudantium saepe eaque quibusdam neque ab, architecto ipsum!
-                    </p>
-
-                    <p class="precio">
-                        COP. ---
-                    </p>
-
-                </div>
-
-            </div>
-
-        </section>
-
-
-
-
-
-        
-        <section class="formulario_de_pedido">
-
-            <div class="contenedor_menu">
-
-                <h3 id="Pedido">Haz Tu Pedido</h3>
-
-            </div>
-
-            <div class="formulario">
-
-                <form action="">
-
-                    <label for="Nombre">Nombre y Apellido</label>
-
-                    <input id="Nombre" name="Nombre" type="text" placeholder="Ej. Manuel Gonzalez" required>
-
-                    <label for="Direccion">Direccion</label>
-                    
-                    <input id="Direccion" name="Direccion" type="text" placeholder="Ej. Calle..." required>
-
-
-                    <label for="pago">Metodo de pago</label>
-
-                    <input id="pago" name="pago" type="text" placeholder="Ej. Nequi, Bancolombia, Efectivo" required>
-
-                    <label for="pedido">Pedido</label>
-
-                    <textarea name="pedido" id="pedido" placeholder="Ej. Hamburguesa sencilla" required></textarea>
-
-                    <input type="submit" value="Hacer pedido">
-
-                </form>
-
-            </div>
-
-        </section>
-
-    </main>
-
-    <footer>
-        <!-- Aquí va tu logo -->
-        <img src="Logos-PNG/logo(oscuro).jpg" alt="Logo del local" class="footer-logo">
-
-        <p class="copy">
-            ©Copyrigth/PALADAR
-        </p>
-
-        <p class="año">
-            2024
-        </p>
-
-    </footer>
 
     <script src="main.js"></script>
 </body>
